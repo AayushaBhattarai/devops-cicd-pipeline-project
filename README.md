@@ -34,6 +34,4 @@ Kubernetes deployment files
 4. Application deployed using Kubernetes
 5. Code stored and version controlled with GitHub
 
-## Author
 
-Aayusha Bhattarai
