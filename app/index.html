@@ -1,11 +1,109 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
 <head>
 <title>DevOps CI/CD Pipeline</title>
+
+<style>
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #f4f6f9;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.flow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.box {
+    width: 140px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.box img {
+    width: 40px;
+    height: 40px;
+}
+
+.arrow {
+    font-size: 25px;
+    margin: 10px;
+}
+
+</style>
 </head>
 
 <body>
-<h1>DevOps CI/CD Virtual Lab</h1>
-<p>Deployment using Terraform, Ansible, Docker and Kubernetes</p>
+
+<h1>End-to-End DevOps CI/CD Pipeline</h1>
+
+<button class="btn">Deployed</button>
+<button class="btn">Run Pipeline</button>
+
+<div class="flow">
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png">
+<p>Code Push</p>
+</div>
+
+<div class="arrow">➡️</div>
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
+<p>GitHub</p>
+</div>
+
+<div class="arrow">➡️</div>
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/919/919831.png">
+<p>Terraform</p>
+</div>
+
+<div class="arrow">➡️</div>
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/919/919825.png">
+<p>Ansible</p>
+</div>
+
+<div class="arrow">➡️</div>
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/919/919853.png">
+<p>Docker</p>
+</div>
+
+<div class="arrow">&rarr;</div>
+
+<div class="box">
+<img src="https://cdn-icons-png.flaticon.com/512/919/919836.png">
+<p>Kubernetes</p>
+</div>
+
+</div>
+
 </body>
 </html>
